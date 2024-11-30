@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Landing Page Penjualan Sepeda Listrik</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Electric Bikes</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#promo">Halaman Depan</a></li>
+            <li><a href="#about">Profil Usaha</a></li>
+            <li><a href="#pricing">Harga Produk</a></li>
+            <li><a href="#order">Form Pesanan</a></li>
+            <li><a href="#login">Login</a></li>
+            <li><a href="#contact">Media Sosial</a></li>
+        </ul>
+    </nav>
+
+    <section id="promo" class="h1">
+        <h2>Promo Sepeda Listrik Terbaik!</h2>
+        <p>Harga terjangkau, hemat energi, dan ramah lingkungan.</p>
+    </section>
+
+    <section id="about" class="content">
+        <h2>Profil Usaha</h2>
+        <p>Electric Bikes didirikan sejak 4 tahun dilingkungan dan inovasi teknologi.
+             Usaha ini berfokus pada penjualan sepeda listrik yang tidak hanya ramah lingkungan tetapi juga memberikan solusi transportasi yang efisien di perkotaan. 
+             Dengan meningkatnya kesadaran akan pentingnya mengurangi jejak karbon, sepeda listrik menjadi pilihan transportasi yang tepat untuk masa depan.
+</p>
+        <img src="sepeda listrik.jpg" alt="Profil Usaha" style="width: 50%; height: auto; margin-top: 10px;">
+ </section>
+
+    <section class="content table-container">
+        <h2>Harga Produk</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Produk</th>
+                    <th>Spesifikasi</th>
+                    <th>Harga</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sepeda Listrik A</td>
+                    <td>Baterai 500Wh, Jarak tempuh 60 km</td>
+                    <td>Rp 7.000.000</td>
+                </tr>
+                <tr>
+                    <td>Sepeda Listrik B</td>
+                    <td>Baterai 600Wh, Jarak tempuh 70 km</td>
+                    <td>Rp 8.500.000</td>
+                </tr>
+                <tr>
+                    <td>Sepeda Listrik C</td>
+                    <td>Baterai 700Wh, Jarak tempuh 80 km</td>
+                    <td>Rp 10.000.000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="order" class="content form-container">
+        <h2>Form Pesanan</h2>
+        <form>
+            <label for="name">Nama:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="product">Pilih Produk:</label><br>
+            <select id="product" name="product">
+                <option value="sepedaA">Sepeda Listrik A</option>
+                <option value="sepedaB">Sepeda Listrik B</option>
+                <option value="sepedaC">Sepeda Listrik C</option>
+            </select><br><br>
+            <label for="alamat">Alamat:</label><br>
+            <input type="alamat" id="alamat" name="alamat" required><br>
+            <label for="no handphone">No Handphone:</label><br>
+            <input type="no handphone" id="no handphone" name="no handphone" required><br>
+            <label for="Account Number">Bank:</label><br>
+            <select id="Account Number" name="Account Number">
+                <option value="bank">Mandiri</option>
+                <option value="bank">BRI</option>
+                <option value="bank">BCA</option>
+                <option value="bank">BNI</option>
+                <option value="bank">Seabank</option>
+            </select><br><br>
+            <input type="submit" value="Pesan" style="width: 150px; text-align: center; background-color: blue;color: white;">
+            <input type="reset" value="Reset">
+        </form>
+    </section>
+
+    <section id="login" class="content">
+        <h2>Login</h2>
+        <form>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Login" style="width: 150px; text-align: center; background-color: blue;color: white;">
+        </form>
+    </section>
+
+   <section id="contact" class="content">
+        <h2>Info Media-Sosial</h2>
+        <p>Ikuti kami di:</p>
+        <div class="sosial media">
+            <script src="https://kit.fontawesome.com/0cd8c755ca.js" crossorigin="anonymous"></script>
+            <a href="https://www.instagram.com/mynmedela/profilecard/?igsh=bjg1YmQzbWM5M3Rh"><i class="fa-brands fa-instagram fa-xl"></i></a> 
+            <a href="https://www.facebook.com/share/3FQNQRVxfXQ4foYm/"><i class="fa-brands fa-facebook fa-xl"></i></a> 
+            <a href="https://x.com/dellaljn23?t=V_56xY2h2RX53TmgnBK6lw&s=09"><i class="fa-solid fa-x fa-xl"></i></a>
+            <a href="https://wa.me/qr/HZ3H7XFWMFZYH1"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+           
+        </div>
+    </section>
+
+    <div class="slider">
+        <img src="sepeda listrik1.jpg" alt="Gambar 1">
+        <img src="sepeda listrik2.jpg" alt="Gambar 2">
+        <img src="sepeda listrik3.jpg" alt="Gambar 3">
+    </div>
+
+    <section class="developer">
+        <h2>Profil Pengembang</h2>
+        <p>Landing page ini dikembangkan oleh Dela Nur'ain</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Penjualan Sepeda Listrik. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
